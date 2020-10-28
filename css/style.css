@@ -1,0 +1,18 @@
+nav {
+  height: 100px;
+  background: red;
+}
+
+.header_bottom{
+  background: blue;
+}
+
+.box-1 {
+  background: #F3F5F9;
+}
+
+/* .block_1 {
+  width: 200px;
+  height: 300px;
+  background: red
+} */
