@@ -234,16 +234,28 @@ h4 {
 .region {
   border-bottom: 1px solid white;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
-.left_box {
-  padding-bottom: 60px;
+#last_region_left {
+  border-bottom: 0px;
+  margin-bottom: 50px;
 }
 
-.right_box {
-  padding-bottom: 60px;
+#last_region_right {
+  border-bottom: 0px;
+  margin-bottom: 50px;
 }
 
+.country {
+  font-size: 12px;
+  color:#A3B6E2;
+  font-weight: bold;
+}
+
+.test {
+  color: #00D7D2;
+}
 
 #img_box_6 {
   width: 20%;
