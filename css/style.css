@@ -1,7 +1,7 @@
 nav {
   height: 80px;
   line-height: 80px;
-  background: red;
+  background: white;
 }
 
 .list_inline {
@@ -11,21 +11,86 @@ nav {
 
 .list_inline li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 5px;
 
 }
 
 .list_inline li a {
   text-decoration: none;
   color: #031C4E;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+.fas.fa-chevron-down {
+  margin-left:5px;
+  color: #031C4E;
+}
+
+.fas.fa-bars {
+  font-size: 24px;
+  color: #016DFF;
+}
+
+#signup {
+  color: #016DFF;
+  padding: 8px 8px;
+  border:1px solid #016DFF;
+  border-radius: 5px;
 }
 
 .header_bottom{
-  background: blue;
+  background-image: url("https://prismic-io.s3.amazonaws.com/www-static/5315ae46-6bc4-49fe-aa85-a434f9066bd4_bg-home-3.svg");
+  padding:30px 0px ;
 }
 
+h1 {
+  font-size: 72px;
+  color : white;
+}
 
+.sub_title {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+}
+
+.signup_form {
+
+  margin: auto;
+  background: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+#exampleInputName2{
+  width: 85%;
+  margin-left: 40px;
+}
+
+#inputEmail3{
+  width: 85%;
+  margin-left: 40px;
+}
+
+.btn.btn-primary{
+  width: 90%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#signup_google_form{
+  margin-top: 10px;
+  background: white;
+  color: #626262;
+  border: none;
+  border: 1px solid #626262;
+}
+
+.fab.fa-google {
+  text-align: left;
+}
 
 .box-1 {
   background: #F3F5F9;

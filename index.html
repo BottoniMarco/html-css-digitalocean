@@ -20,18 +20,23 @@
             </div>
             <div class="col-lg-5 visible-lg-inline-block">
               <ul class="list_inline">
-                <li> <a href="#">products</a> </li>
+                <li> <a href="#">products</a><i class="fas fa-chevron-down"></i> </li>
                 <li> <a href="#">customers</a> </li>
-                <li> <a href="#">community</a> </li>
+                <li> <a href="#">community</a><i class="fas fa-chevron-down"></i> </li>
                 <li> <a href="#">pricing</a> </li>
               </ul>
             </div>
             <div class="col-xs-6 hidden-lg text-right">
-              <span>piccolo</span>
+              <span><i class="fas fa-bars"></i></span>
             </div>
 
-            <div class="col-lg-4 hidden-xs hidden-sm text-right">
-              <span>nav-sinistra</span><span>nav-sinistra</span><span>nav-sinistra</span>
+            <div class="col-lg-4 hidden-xs hidden-sm hidden-md text-right">
+              <ul class="list_inline">
+                <li> <a href="#">Docs</a> </li>
+                <li> <a href="#">Support</a><i class="fas fa-chevron-down"></i> </li>
+                <li> <a href="#">Login</a> </li>
+                <li> <a id="signup" href="#">Sign Up</a> </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -41,11 +46,28 @@
         <div class="container">
           <div class="row">
             <div class="div col-xs-12 col-sm-6">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <h1 class="text-center">The simplest, most powerful cloud</h1>
+              <p class="sub_title text-center">For individual developers, tech startups, and SMBs, DigitalOcean’s cloud infrastructure and fully managed services simplify app development with an intuitive control panel and powerful performance – all with predictable, competitive pricing.</p>
             </div>
 
             <div class="div col-xs-12 col-sm-6">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="signup_form text-center">
+                <h3 class="text-center">Deploy your app in seconds <br> Get started now </h3>
+                <form class="form-horizontal">
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+                  </div>
+
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email Adress ">
+                  </div>
+
+                  <button type="button" class="btn btn-primary text-center">Create your account</button>
+
+                  <button id="signup_google_form" type="button" class="btn btn-primary text-center"><i class="fab fa-google"></i>Sign up with google</button>
+                </form>
+                <p>By signing up you agree to the <a href="#"> Terms of Service.</a></p>
+              </div>
             </div>
           </div>
         </div>
