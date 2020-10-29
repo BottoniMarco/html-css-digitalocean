@@ -44,7 +44,8 @@ nav {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 62px;
+  font-weight: bold;
   color : white;
 }
 
@@ -55,26 +56,25 @@ h1 {
 }
 
 .signup_form {
-
-  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
   background: white;
   text-align: center;
-  padding: 15px;
+  padding: 30px;
   border-radius: 20px;
 }
 
 #exampleInputName2{
-  width: 85%;
-  margin-left: 40px;
+  width: 100%;
 }
 
 #inputEmail3{
-  width: 85%;
-  margin-left: 40px;
+  width: 100%;
 }
 
 .btn.btn-primary{
-  width: 90%;
+  width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -94,15 +94,31 @@ h1 {
 
 .box-1 {
   background: #F3F5F9;
+  text-align: center;
 }
 
-/* .block_1 {
-  width: 200px;
-  height: 300px;
-  background: red
-} */
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
 
-img {
+.logo_img {
+  display: inline-block;
+}
+
+.logo_img img {
+  width: 100%
+}
+
+.link_center {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3487FE
+}
+
+.box_image img {
   width: 70%
 }
 
@@ -110,3 +126,9 @@ img {
   width: 20%;
   height: 20%;
 }
+
+/* @media screen and (max-width:767px) {
+  .logo_img img {
+    width: 100%;
+  }
+} */
