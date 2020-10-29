@@ -1,11 +1,31 @@
 nav {
-  height: 100px;
+  height: 80px;
+  line-height: 80px;
   background: red;
+}
+
+.list_inline {
+  list-style: none;
+  display: inline-block;
+}
+
+.list_inline li {
+  display: inline-block;
+  padding: 0 10px;
+
+}
+
+.list_inline li a {
+  text-decoration: none;
+  color: #031C4E;
+  font-size: 18px;
 }
 
 .header_bottom{
   background: blue;
 }
+
+
 
 .box-1 {
   background: #F3F5F9;
@@ -16,3 +36,12 @@ nav {
   height: 300px;
   background: red
 } */
+
+img {
+  width: 70%
+}
+
+#img_box_6 {
+  width: 20%;
+  height: 20%;
+}
