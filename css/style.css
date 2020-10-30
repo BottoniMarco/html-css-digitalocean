@@ -4,6 +4,10 @@ nav {
   background: white;
 }
 
+#logo_nav {
+  width: 70%
+}
+
 .list_inline {
   list-style: none;
   display: inline-block;
@@ -89,7 +93,7 @@ h1 {
 }
 
 .fab.fa-google {
-  text-align: left;
+
 }
 
 .box_1 {
@@ -133,7 +137,9 @@ h2 {
 .p_box_2 {
   font-size: 18px;
   font-weight: bold;
-  color: #5C6A88
+  color: #5C6A88;
+  padding-bottom: 20px;
+
 }
 
 .list_box_2 {
@@ -142,7 +148,8 @@ h2 {
   text-decoration: none;
   list-style: none;
   border-left: 2px solid rgb(117, 128, 154);
-  padding-left: 5px
+  padding-left: 5px;
+  margin-bottom: 50px;
 }
 
 .list_box_2 li {
@@ -210,6 +217,10 @@ h4 {
   padding-bottom: 60px;
 }
 
+.img_box_4 {
+  margin-top: 25px;
+}
+
 .p_box_4 {
   color: #5C6A88;
   font-weight: bold;
@@ -235,6 +246,7 @@ h4 {
 .region {
   border-bottom: 1px solid white;
   margin-right: 20px;
+  margin-left: 20px;
   margin-bottom: 10px;
   padding-bottom: 8px;
 }
@@ -264,11 +276,26 @@ h4 {
 
 .box_6 {
   background: #F3F5F9;
+  height: 100%;
 }
 
 .title_box_6 {
   padding-top: 60px;
   padding-bottom: 100px;
+}
+
+.master_box {
+  position: relative;
+}
+
+.chevron_left_box_6 {
+  position: absolute;
+  top: 45%;
+}
+
+.chevron_right_box_6 {
+  position: absolute;
+  top: 45%;
 }
 
 .white_box {
@@ -283,7 +310,6 @@ h4 {
 
 #img_box_6 {
   width: 30%;
-  /* height: 30%; */
 }
 
 .p_box_6 {
@@ -302,16 +328,11 @@ h4 {
 }
 
 .link_box_6 {
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
   color: #3487FE
-}
-
-.chevron_box_6 {
-  display: inline-block;
-  font-size: 40px;
 }
 
 .box_7 {
@@ -322,10 +343,9 @@ h4 {
 .title_box_7 {
   padding-top: 80px;
   color: white;
+  padding-bottom: 20px;
 }
 
-/* .btn.btn-primary{
-} */
 
 #button_box_7 {
   width: 200px;
@@ -340,11 +360,55 @@ h4 {
 }
 
 footer {
-  background: #010E28
+  background: #010E28;
+  padding: 60px 0;
 }
 
-/* @media screen and (max-width:767px) {
-  .logo_img img {
-    width: 100%;
-  }
-} */
+.social {
+  list-style: none;
+  padding: 0
+}
+
+.social li {
+  display: inline-block;
+}
+
+.social i {
+  font-size: 20px;
+  padding-right: 10px;
+  text-align:left;
+  color: #7A859D;
+  padding-bottom: 30px;
+}
+
+.footer_list {
+  color: #A2AABB;
+  list-style: none;
+  font-weight: bold;
+  padding: 0
+}
+
+.footer_list li {
+  padding-bottom: 10px;
+}
+
+.footer_list:first-child{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer_list  a {
+  font-weight: bold;
+  color: #A2AABB;
+  font-size: 14px;
+}
+
+#ny {
+  color: #505F7F;
+}
+
+#copytight {
+  color: #8993A8;
+  padding-top: 10px;
+}
