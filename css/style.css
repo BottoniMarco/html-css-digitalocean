@@ -1,7 +1,12 @@
 nav {
   height: 80px;
+  width: 100%;
   line-height: 80px;
   background: white;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 2
 }
 
 #logo_nav {
@@ -45,6 +50,7 @@ nav {
 .header_bottom{
   background-image: url("https://prismic-io.s3.amazonaws.com/www-static/5315ae46-6bc4-49fe-aa85-a434f9066bd4_bg-home-3.svg");
   padding:30px 0px ;
+  margin-top: 80px;
 }
 
 h1 {
@@ -57,6 +63,10 @@ h1 {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
+}
+
+#signup_title {
+  color: #006AFF
 }
 
 .signup_form {
@@ -92,9 +102,7 @@ h1 {
   border: 1px solid #626262;
 }
 
-.fab.fa-google {
 
-}
 
 .box_1 {
   padding-top: 60px;
@@ -190,13 +198,20 @@ h2 {
 }
 
 .fas.fa-chevron-left {
-  font-size: 50px;
-  color: #6F7B97
+  font-size: 40px;
+  color: #6F7B97;
+  padding-right:  30px;
 }
 
 .fas.fa-chevron-right {
-  font-size: 50px;
-  color: #031C4E
+  font-size: 40px;
+  color: #031C4E;
+  padding-left: 30px;
+}
+
+.fas.fa-chevron-left,
+.fas.fa-chevron-right:hover {
+  cursor: pointer;
 }
 
 .fas.fa-circle {
@@ -288,14 +303,25 @@ h4 {
   position: relative;
 }
 
-.chevron_left_box_6 {
+#chevron_left_box_6 {
+  font-size: 40px;
+  padding-right: 30px;
   position: absolute;
   top: 45%;
+  transform: translate(-100%,-50%);
 }
 
-.chevron_right_box_6 {
+#chevron_right_box_6 {
+  font-size: 40px;
+  padding-left: 30px;
   position: absolute;
   top: 45%;
+  transform: translate(-0%,-50%);
+}
+
+#chevron_left_box_6,
+#chevron_right_box_6:hover {
+  cursor: pointer;
 }
 
 .white_box {
@@ -309,7 +335,7 @@ h4 {
 }
 
 #img_box_6 {
-  width: 30%;
+  width: 70%;
 }
 
 .p_box_6 {
